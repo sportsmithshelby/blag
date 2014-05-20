@@ -1,0 +1,7 @@
+%article
+  %header
+    %h1 
+      %a =url(article.slug) =article.title
+    %time.timeago =article.date.strftime "%Y/%m/%d"
+  %section.content
+    =article.content
